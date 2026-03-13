@@ -16,6 +16,15 @@
 </p>
 
 
+<p align="center">
+  <img src="figure/framework.png" alt="EVPV-PRM framework" width="90%"/>
+</p>
+<p align="center">
+  <b>Figure 1.</b> Overview of the EVPV-PRM framework. Structured image description, visual-dependency checklist, and reliability gate modulate step-level rewards.
+</p>
+
+</div>
+
 ## ⚙️ 1. Setup and Installation
 
 From the repository root:
@@ -28,9 +37,9 @@ pip install -r requirements.txt
 
 | Role | Recommended model |
 |------|-------------------|
-| EVPV-PRM verifier | Your fine-tuned InternVL checkpoint |
-| Policy model | InternVL2.5-8B / 26B / 76B |
-| API verifier | Qwen2.5-VL-72B (remote) |
+| EVPV-PRM verifier | QwenVL2.5-7B |
+| Policy model | InternVL2.5-8B / 26B / 38B |
+| API verifier | Wen3-vl-235b-a22b-instruct (remote) |
 
 ## 📥 2. Data and Model Preparation
 
@@ -203,15 +212,6 @@ python -m evpv_prm.compute_bon_metrics
 ```bash
 python -m evpv_prm.step_verifier_local
 ```
-
-**Key results** (representative):
-
-| Benchmark | Policy | Pass@8 | BoN@8 (EVPV-PRM) | ΔBoN |
-|-----------|--------|--------|-------------------|------|
-| MathVista | InternVL2.5-8B | 74.4 | **79.1** | +4.7 |
-| MathVision | InternVL2.5-8B | 32.6 | **36.8** | +4.2 |
-| MathVerse-VO | InternVL2.5-8B | 55.2 | **60.1** | +4.9 |
-| VisualProcessBench (F1) | — | — | **68.3** | — |
 
 ## 📁 Repository Structure
 
