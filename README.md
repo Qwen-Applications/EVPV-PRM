@@ -44,9 +44,9 @@ pip install -r requirements.txt
 
 | Role | Recommended model |
 |------|-------------------|
-| EVPV-PRM verifier | QwenVL2.5-7B |
+| EVPV-PRM verifier | Qwen2.5-VL-7B-Instruct |
 | Policy model | InternVL2.5-8B / 26B / 38B |
-| API verifier | Wen3-vl-235b-a22b-instruct (remote) |
+| API verifier | Qwen3-VL-235b-a22b-Instruct (remote) |
 
 ## 📥 2. Data and Model Preparation
 
