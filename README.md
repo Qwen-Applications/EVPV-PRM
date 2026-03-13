@@ -15,12 +15,19 @@
   <i><b> <img src="https://img.alicdn.com/imgextra/i2/O1CN01FPcQDy1WTPjPX6IH9_!!6000000002789-2-tps-96-96.png" width="16px"  style="vertical-align: middle;"> Qwen Large Model Application Team, Alibaba</b></i>
 </p>
 
+<p align="center">
+  <img src="figure/teaser_evpv.png" alt="Teaser Figure" width="90%"/>
+</p>
+<p align="center">
+  <b>Figure 1.</b> Teaser Figure: EVPV — Explicit Visual Premise Verification for Reliable Multimodal Process Reward Modeling.
+</p>
+
 
 <p align="center">
   <img src="figure/framework.png" alt="EVPV-PRM framework" width="90%"/>
 </p>
 <p align="center">
-  <b>Figure 1.</b> Overview of the EVPV-PRM framework. Structured image description, visual-dependency checklist, and reliability gate modulate step-level rewards.
+  <b>Figure 2.</b> Overview of the EVPV-PRM framework. Structured image description, visual-dependency checklist, and reliability gate modulate step-level rewards.
 </p>
 
 </div>
