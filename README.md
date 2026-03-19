@@ -46,7 +46,7 @@ pip install -r requirements.txt
 |------|-------------------|
 | EVPV-PRM verifier | Qwen2.5-VL-7B-Instruct |
 | Policy model | InternVL2.5-8B / 26B / 38B |
-| Teacher model | Qwen3-VL-235b-a22b-Instruct (remote) |
+| Teacher model | Qwen3-VL-235b-a22b-Instruct |
 
 ## 📥 2. Data and Model Preparation
 
@@ -287,10 +287,13 @@ We build on and thank the open-source communities behind InternVL, vLLM, and the
 If you find our work useful, please consider citing:
 
 ```bibtex
-@article{evpv_prm_2025,
-  title   = {EVPV-PRM: Explicit Visual Premise Verification for Multimodal Process Reward Models},
-  author  = {Anonymous},
-  journal = {arXiv preprint},
-  year    = {2025},
+@misc{wang2026groundingscoreexplicitvisual,
+      title={Grounding the Score: Explicit Visual Premise Verification for Reliable Vision-Language Process Reward Models}, 
+      author={Junxin Wang and Dai Guan and Weijie Qiu and Zhihang Li and Yongbo Gai and Zhengyi Yang and Mengyu Zhou and Erchao Zhao and Xiaoxi Jiang and Guanjun Jiang},
+      year={2026},
+      eprint={2603.16253},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.16253}, 
 }
 ```
